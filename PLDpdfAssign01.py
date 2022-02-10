@@ -17,3 +17,7 @@ pdf = FPDF('P', 'mm', 'Letter')
 # Add page 
 pdf.add_page()
 
+# Selecting specific font
+#fonts ('times', 'courier', 'helvetica', 'symbol', 'zpfdingbats,')
+# 'B' (bold), 'U' (underline), 'I' (italics), '' (regular), combination (i.e., (BU)) 
+pdf.set_font('helvetica', '', 16)
