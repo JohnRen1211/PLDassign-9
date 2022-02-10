@@ -8,6 +8,8 @@
 # Import library
 from fpdf import FPDF
 
+# Import pdf reader 
+
 # create fpdf objec
 
 # Layout ('P', 'L')
@@ -87,10 +89,8 @@ pdf.cell(40, 10, ' ', ln=1)
 
 
 pdf.cell(40, 10, '(Note: These are examples only for assignment)', ln=1)
-pdf.cell(40, 10, 'Wondeerful', ln=1)
 
 pdf.output('pdf_resume01.pdf') 
 
-# Program is working
-
+# Program successfully running
 
